@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, serif;
+}
+.container{
+    align-items: center;
+    margin-top: 30vh;
+    width: 336px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 10px;
+}
+.yellow{
+    margin: auto;
+    background: rgba(255, 220, 64, 1);
+    width: 336px;
+    min-height: 28px;
+    border-radius: 10px 10px 0 0;
+}
+.treker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 100%;
+    min-height: 168px;
+    border-radius: 0 0 10px 10px;
+}
+.top{
+    height: 78px;
+    width: 100%;
+    padding-bottom: 11px;
+    position: relative;
+}
+h1{
+    padding-top: 13px;
+    padding-left: 69px;
+    width: 198px;
+    height: 34px;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+}
+.img-sortDown{
+    background-image: url(imgage/sort.svg);
+}
+.img-sortUp, .img-sortDown{
+    width: 25px;
+    height: 15px;
+    position: absolute;
+    bottom: 11px;
+    right: 30px;
+    cursor: pointer;
+}
+.img-sortDown:hover{
+    background: url(imgage/sortColour.svg);
+}
+.inputContainer{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+.input{
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.note{
+    height: 100%;
+    width: 195px;
+    border-radius: 10px;
+    border: none;
+    line-height: 16.41px;
+    outline: none;
+    margin-left: 27px;
+}
+/*.note::first-letter{
+    text-transform: uppercase;
+}*/
+.image-delete{
+    background-image: url(imgage/cancel.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.image-delete:hover{
+    background: url(imgage/cancelColour.svg);
+}
+.add-a-new-note{
+    display: flex;
+    width: 150px;
+    height: 42px;
+    margin-bottom: 19px;
+    background-color: rgba(131, 58, 224, 1);
+    border-radius: 71px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.add-a-new-note .plus{
+    width: 42px;
+    line-height: 42px;background: rgba(153, 83, 241, 1);
+    border-radius: 71px;
+    text-align: center;
+}
+.add-a-new-note .add{
+line-height: 42px;
+margin-left: 10px;
+text-align: center;
+
+}
+.add-a-new-note:hover .plus{
+    background-color: #AA68FE;
+}
+.add-a-new-note:hover{
+    background-color: #9953F1;
+}
+.img-sortUp{
+    background-image: url(imgage/sortUp.svg);
+}
+.img-sortUp:hover{
+    background-image: url(imgage/cortUpColor.jpg);
+}
